@@ -1,0 +1,87 @@
+.starter{
+  padding:40px 15px;
+  text-align: center;
+}
+.starter h1{
+  font-size:72px;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.32);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.navbar-hrms {
+background-color: rgba(212, 245, 197, 0.79);
+border-color: #e7e7e7;
+}
+
+.door{
+  height:260px;
+  margin:50px auto;
+  width: 660px;
+}
+
+.door .box{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-top:5px;
+  margin-bottom: 5px;
+  margin-left:20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 20px #ccc;
+  font-size: 60px;
+  line-height: 190px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+
+  .door{
+    height:660px;
+    width: 200px;
+  }
+
+  .door .box{
+    width:200px;
+    margin-left: 0;
+  }
+}
